@@ -40,9 +40,14 @@ After you've figured out how to use Vim basically, add these lines at the bottom
 #Disable autocorrect
 unsetopt correct_all
 unsetopt correct
+
+export EDITOR=code
+export VISUAL=code
 ```
 
 This disables the autocorrect suggestions that ZSH makes, which are often wrong and annoying.
+
+`code` can be replaced with your preferred code editor.
 
 YADR includes Homebrew:
 https://brew.sh/ Homebrew is a package manager for macOS. It allows you to easily install many programs from the command line, and you will come across many examples during development where you will use a `brew install` command.
@@ -75,6 +80,7 @@ https://nodejs.org/en/ npm comes bundled with NodeJS.
 
 # Useful VSCode Extensions
 Must have:
+
 **ESLint(vscode-eslint)** - This will lint (check for errors) your code according to the code style conventions we set in our .eslintrc file
 
 **HTML Snippets(html-snippets)** - This will let you complete HTML tags using tab. For example, typing "html" then "tab" will turn into "<html></html>"
