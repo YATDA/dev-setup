@@ -52,6 +52,11 @@ This disables the autocorrect suggestions that ZSH makes, which are often wrong 
 YADR includes Homebrew:
 https://brew.sh/ Homebrew is a package manager for macOS. It allows you to easily install many programs from the command line, and you will come across many examples during development where you will use a `brew install` command.
 
+Now, install the newest version of vim (the one that comes with your Mac is a little bit outdated).
+```
+brew install vim
+```
+
 - If you are using a work computer you may find that your permissions are restricted. Still working on a solution...
 
 
