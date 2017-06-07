@@ -62,12 +62,16 @@ https://nodejs.org/en/ npm comes bundled with NodeJS.
 # Useful VSCode Extensions
 Must have:
 ESLint(vscode-eslint) - This will lint (check for errors) your code according to the code style conventions we set in our .eslintrc file
+
 HTML Snippets(html-snippets) - This will let you complete HTML tags using tab. For example, typing "html" then "tab" will turn into "<html></html>"
+
 TSLint(tslint) - This will lint your TypeScript code. While we won't use TypeScript to begin with, we will incorporate TypeScript into the codebase at some point after we have the basic app completed.
 
 Advanced (Hold off on these until you're comfortable - you'll know when you want these additions):
 Prettier(prettier-vscode) - I suggest using this after you're more experienced at JavaScript because it formats your code for you, but you *should* know how to format it yourself first.
+
 Auto Import(autoimport) - Lets you automatically import something by searching through your codebase for dependencies.
+
 Debugger for Chrome(debugger-for-chrome) - Lets you debug using VS Code instead of your browser.
 
 
