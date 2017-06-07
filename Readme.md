@@ -10,7 +10,7 @@ https://www.iterm2.com/downloads.html It's free and much better looking than the
 
 # Install YADR + Prezto
 YADR is a set of dotfiles that are great for customizing your terminal environment. You can install it by running this command
-`sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`"`
+```sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`"```
 
 After installing this, open the `.zshrc` file in your home directory (this should be the directory you start in when you open your terminal) with this command:
 `vim .zshrc`
