@@ -27,4 +27,29 @@ Project directory - This is the base folder if your repository. It has a `packag
 5. `git add .` from the project directory. This will add all changes you made to your LOCAL repository.
 6. `git commit` from the project directory. This will commit all changes that you've added to the LOCAL repository.
 7. Repeat steps 4-6 often so it's easy to revert changes. When you're ready to push your changes to master, proceed to step 8.
-8. `git push origin username-branchname` - this will push all changes on your current branch to the same branch on the GitHub repository. At this point, you can look at the online repository and there should be an option to submit a pull request.
+8. `git push origin username-branchname` - again, replace "username-branchname" with the actual name you used. This will push all changes on your current branch to the same branch on the GitHub repository. At this point, you can look at the online repository and there should be an option to submit a pull request.
+
+This is the summary of our development workflow - aside from interacting with GitHub, this is all you will do locally. Each time you want to start a new task, start from #1 and work your way to the end.
+# Submitting pull requests on GitHub
+
+Submitting pull requests is how we ensure that all code that goes into our repository is at least:
+1. Reviewed by someone else
+2. Passes our tests
+
+If you recently made a commit, you might see this when you visit our repository on GitHub.
+![recent commit prompt appears because it detects that you recently made a commit](assets/recent-commit.png)
+
+If you made it commit but it wasn't recent, you might have to manually initialize a pull request.
+![click on the pull request button](assets/pull-request-start.png)
+
+When you manually initialize a pull request, you'll have to choose the branch that you want to merge (the **compare** branch) into the master branch (the **base** branch). 
+![change the compare dropdown option to your branch name](assets/nothing-to-compare.png)
+
+Either way, you should end up here, where the **compare** branch is your branch name. You should also add reviewers (**idlewinn**, for now):
+![should have your branch name](assets/recent-pull.png)
+
+Write a title and description for your commit so a reviewer can quickly understand the changes you made and why. Then, click *Create Pull Request*.
+
+After a reviewer looks at the code, they will either approve it or give feedback (or both). Make sure you address any feedback, and when everything is ready you'll be able to merge your changes.
+
+That's our development workflow!
