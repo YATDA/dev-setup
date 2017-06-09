@@ -8,6 +8,9 @@ https://www.google.com/chrome/browser/desktop/ Best browser for web development
 # Install ITerm 2
 https://www.iterm2.com/downloads.html It's free and much better looking than the default terminal.
 
+# Install Homebrew
+https://brew.sh/ Homebrew is a package manager for macOS. It allows you to easily install many programs from the command line, and you will come across many examples during development where you will use a `brew install` command.
+
 # Install YADR + Prezto
 YADR is a set of dotfiles that are great for customizing your terminal environment. You can install it by running this command
 
@@ -48,9 +51,6 @@ export VISUAL=code
 This disables the autocorrect suggestions that ZSH makes, which are often wrong and annoying.
 
 `code` can be replaced with your preferred code editor.
-
-YADR includes Homebrew:
-https://brew.sh/ Homebrew is a package manager for macOS. It allows you to easily install many programs from the command line, and you will come across many examples during development where you will use a `brew install` command.
 
 Now, install the newest version of vim (the one that comes with your Mac is a little bit outdated).
 ```
