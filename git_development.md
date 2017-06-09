@@ -50,6 +50,8 @@ Either way, you should end up here, where the **compare** branch is your branch 
 
 Write a title and description for your commit so a reviewer can quickly understand the changes you made and why. Then, click *Create Pull Request*.
 
-After a reviewer looks at the code, they will either approve it or give feedback (or both). Make sure you address any feedback, and when everything is ready you'll be able to merge your changes.
+After a reviewer looks at the code, they will either approve it or give feedback (or both). Make sure you address any feedback, and when everything is ready you'll be able to merge your changes. 
+
+After you merge, you will be prompted to delete your branch. You should, because it will help keep the repository clean. Your changes will be in the master branch anyway.
 
 That's our development workflow!
