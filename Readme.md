@@ -104,8 +104,3 @@ _Advanced (Hold off on these until you're comfortable - you'll know when you wan
 
 # Next Steps
 Set up your [Git and GitHub development flow](git_development.md).
-
-
-
-
-
