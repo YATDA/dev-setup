@@ -102,6 +102,8 @@ _Advanced (Hold off on these until you're comfortable - you'll know when you wan
 
 **Debugger for Chrome(debugger-for-chrome)** - Lets you debug using VS Code instead of your browser.
 
+# Next Steps
+Set up your [Git and GitHub development flow](git_development.md).
 
 
 
