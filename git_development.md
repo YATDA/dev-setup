@@ -1,5 +1,5 @@
 # Documentation
-[Here's some documentation on for Git.](https://git-scm.com/)
+[Here's some documentation on Git.](https://git-scm.com/)
 
 # Clone the repository
 In your terminal, go to a folder you'd like to develop in. For example, `Documents/repos`. Clone the repo into your account.
