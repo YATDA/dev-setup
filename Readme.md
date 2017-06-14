@@ -117,6 +117,15 @@ _Advanced (Hold off on these until you're comfortable - you'll know when you wan
 
 **Prettier(prettier-vscode)** - I suggest using this after you're more experienced at JavaScript because it formats your code for you, but you *should* know how to format it yourself first.
 
+If you choose to use Prettier, then you should add these values to your `settings.json` file for VS Code to comply with our ESLint settings.
+```
+"prettier.bracketSpacing": false,
+"prettier.jsxBracketSameLine": true,
+"prettier.semi": true,
+"prettier.singleQuote": true,
+"prettier.trailingComma": "all",
+```
+
 **Auto Import(autoimport)** - Lets you automatically import something by searching through your codebase for dependencies.
 
 **Debugger for Chrome(debugger-for-chrome)** - Lets you debug using VS Code instead of your browser.
