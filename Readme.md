@@ -43,9 +43,6 @@ After you've figured out how to use Vim basically, add these lines at the bottom
 #Disable autocorrect
 unsetopt correct_all
 unsetopt correct
-
-export EDITOR=code
-export VISUAL=code
 ```
 
 This disables the autocorrect suggestions that ZSH makes, which are often wrong and annoying.
@@ -58,7 +55,6 @@ brew install vim
 ```
 
 - If you are using a work computer you may find that your permissions are restricted. Still working on a solution...
-
 
 # MacOS Quirks
 It's worth noting that MacOS comes bundled with Ruby, Python, and Git (through XCode-Select) but all of these are out of date. If you are using any of these languages, you may want to update them.
@@ -75,6 +71,23 @@ Suggestions:
 In this doc, I will assume that you choose Visual Studio Code, which I recommend unless you have strong preferences for other editors. VSCode is free and generally faster than Atom. The packages I suggest will be VS Code extensions, although usually the other editors will have equivalent packages. Some people swear by command line code editors such as `emacs` or `vim`. They are convenient because they are accessible in most environments, but I find them to be far less friendly to new programmers, as they are far more difficult to set up.
 
 Side note: if you install Visual Studio Code via the above link, you should be able to start VSCode just by typing `code` in your command line. If you can't, then while you are in VSCode, hold `Cmd + Shift + P` to open the Command Palette and type in `shell`. This should give you the option to install the `code` command in PATH. Run this and you'll be able to run VSCode from your command line.
+
+Now, run this in your terminal: 
+```
+git config --global core.editor "code --wait"
+```
+It will set VS Code as your default editor for git. Then, run this:
+
+```
+git config --global -e
+```
+Add this to the file:
+```
+[diff]
+  tool = vscode-diff
+[difftool "vscode-diff"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+```
 
 # Install Yarn
 https://yarnpkg.com/lang/en/docs/install/
@@ -93,6 +106,12 @@ Must have:
 **TSLint(tslint)** - This will lint your TypeScript code. While we won't use TypeScript to begin with, we will incorporate TypeScript into the codebase at some point after we have the basic app completed.
 
 **Git History(githistory)** - This makes it easier to see git information related to changes made in the repository.
+
+**Git Lens(gitlens)** - Makes it easier to see who made what changes.
+
+**npm Intellisense(npm-intellisense)** - Autocompletes npm modules. Useful for require statements.
+
+**Path Intellisense(path-intellisense)** - Autocompletes filenames. Useful for require statements.
 
 _Advanced (Hold off on these until you're comfortable - you'll know when you want these additions):_
 
